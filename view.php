@@ -16,6 +16,7 @@
              include("connect-db.php");
              
              echo "<h1>View</h1>";
+             echo "<h3>Table</h3>";
 
             if ($result = $mysqli->query("SELECT * FROM batsmen ORDER BY id"))
                 {
